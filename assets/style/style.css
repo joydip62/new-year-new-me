@@ -73,8 +73,6 @@ p {
     padding-top: 100px;
 }
 
-.my-failures .failures-image img {
-}
 
 .my-failures .failures-content {
     width: 420px;
@@ -110,12 +108,6 @@ p {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-}
-
-.my-plan .plan-colum .plan-item {
-}
-
-.my-plan .plan-colum .plan-item img {
 }
 
 .my-plan .plan-colum .plan-item h3 {
