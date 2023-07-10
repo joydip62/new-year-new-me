@@ -1,0 +1,204 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Work Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    color: var(--dark-01, #151414);
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+section {
+    width: 1440px;
+    padding: 50px 0px;
+    margin: auto;
+}
+
+p {
+    color: var(--dark-02, #444343);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn {
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner .banner-image img {
+    width: 100%;
+}
+
+.banner .banner-content {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 40%;
+    text-align: right;
+}
+
+.banner .banner-content h1 {
+    font-size: 65px;
+}
+
+.banner .banner-content p {
+    padding: 20px 0px;
+}
+
+.banner .btn {
+    background: rgb(241, 91, 34);
+    color: rgb(255, 255, 255);
+}
+
+.my-failures {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.my-failures .failures-image img {
+}
+
+.my-failures .failures-content {
+    width: 420px;
+}
+
+.my-failures .failures-content h2 {
+    font-size: 40px;
+}
+
+.my-failures .failures-content p {
+    padding: 20px 0px;
+}
+
+.my-failures .failures-content ul li {
+    list-style: none;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.my-plan {
+    text-align: center;
+}
+
+.my-plan h2 {
+    font-size: 40px;
+}
+
+.my-plan .plan-colum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my-plan .plan-colum .plan-item {
+}
+
+.my-plan .plan-colum .plan-item img {
+}
+
+.my-plan .plan-colum .plan-item h3 {
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+.my-plan .plan-colum .plan-item p {
+    color: var(--dark-03, #737272);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.call-now-banner {
+    background-image: url("../img/gradient2.png"), url("./../img/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top, left top;
+    margin-bottom: 50px;
+}
+
+.call-now-banner .banner-content {
+    padding: 60px;
+    width: 450px;
+}
+
+.call-now-banner .banner-content h2 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.call-now-banner .banner-content .btn {
+    background: rgb(255, 255, 255);
+    color: rgb(241, 91, 34);
+}
+
+footer {
+    margin-top: 100px;
+    background: var(--dark-01, #151414);
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section .footer-content {
+    width: 485px;
+}
+
+footer section .footer-content h2 {
+    color: rgb(248, 248, 248);
+    font-size: 45px;
+}
+
+footer section .footer-content p {
+    color: rgb(255, 255, 255);
+    padding: 10px 0px;
+}
+
+footer section .footer-content .footer-icon img {
+    margin-right: 15px;
+}
+
+footer section .subscription h3 {
+    color: rgb(255, 255, 255);
+}
+
+footer section .subscription input {
+    width: 325px;
+    color: var(--dark-07, #f3f3f3);
+    font-size: 18px;
+    font-weight: 400;
+    background: var(--dark-01, #151414);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    display: block;
+}
+
+footer section .subscription .btn {
+    color: rgb(241, 91, 34);
+    font-size: 20px;
+}
